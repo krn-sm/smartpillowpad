@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login - Smart Sleep Pad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css"> 
+    <link rel="icon" href="data:,">  <!-- Prevent favicon 404 error -->
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+
+    <!-- Firebase Config & Login Script -->
+    <script src="firebase-config.js"></script>
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Login to Smart Sleep Pad</h1>
+        
+        <input type="email" id="email" placeholder="Enter Email" required>
+        <input type="password" id="password" placeholder="Enter Password" required>
+
+        <button onclick="login()">Login</button>
+        <button onclick="signup()">Sign Up</button>
+
+        <p id="error-message" style="color: red;"></p>
+    </div>
+</body>
+</html>

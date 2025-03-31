@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Sleep Pad</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="home.css" />
+
+    <!-- Main JS (Firebase v10 using ES Module) -->
+    <script type="module" src="home.js"></script>
+  </head>
+  <body>
+    <h1>Smart Sleep Pad - Live Data</h1>
+    <div id="presenceMessage">AWAKE</div>
+    <div>
+      <button
+        id="fsr1"
+        style="width: 50px; height: 50px; background: red"
+      ></button>
+      <button
+        id="fsr2"
+        style="width: 50px; height: 50px; background: red"
+      ></button>
+      <button
+        id="fsr3"
+        style="width: 50px; height: 50px; background: red"
+      ></button>
+      <button
+        id="fsr4"
+        style="width: 50px; height: 50px; background: red"
+      ></button>
+    </div>
+
+    <div class="data-container">
+      <h2>Heart Rate: <span id="heartRate">--</span></h2>
+
+      <div id="heartRateDisplay">
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 21s-6-5.3-9.4-8.7C.3 9.5 2 5.6 5.4 5.1c2.4-.3 4.3 1.5 5.6 2.9 1.3-1.4 3.2-3.2 5.6-2.9 3.4.5 5.1 4.4 2.8 7.2C18 15.7 12 21 12 21z"
+            fill="#e63946"
+          />
+        </svg>
+        <span id="heartRateValue"></span>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button id="record-btn">▶ Start Recording</button>
+      <button onclick="location.href='sleep_analysis.html'">
+        📊 Sleep Analysis
+      </button>
+      <button onclick="location.href='past_data.html'">
+        📂 Past Sleep Data
+      </button>
+    </div>
+  </body>
+</html>

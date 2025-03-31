@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Heading */
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Sleep Stats Section */
+.sleep-stats {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+.sleep-stats h2 {
+    color: #28a745;
+}
+
+.sleep-stats p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+/* Alarm Section */
+#alarmTimeDisplay {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#alarmTimeInput {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 150px;
+    padding: 12px;
+    margin-top: 12px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(to right, #28a745, #218838);
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(to right, #218838, #19692c);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+    .sleep-stats {
+        width: 90%;
+    }
+}

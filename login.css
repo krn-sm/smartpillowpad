@@ -1,0 +1,105 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e, #0f3460); /* Deep, soothing blue gradient */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+.container {
+    width: 350px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05); /* Very soft white for minimal contrast */
+    border-radius: 15px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Placeholder color */
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Input focus effect */
+input:focus {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Buttons */
+/* Global Button Styling */
+/* Login Button - Deep Ocean Teal */
+button:nth-child(4) {
+    background: linear-gradient(to right, #006d77, #023e8a); /* Teal to deep blue */
+    color: white;
+    font-weight: bold;
+}
+
+button:nth-child(4):hover {
+    background: linear-gradient(to right, #005067, #012a5a);
+}
+/* Signup Button - Soft Moonlit Rose */
+/* Login Button - Midnight Blue to Soft Cyan */
+/* General Button Styling */
+button {
+    width: 100%;
+    padding: 15px;  /* Bigger buttons */
+    margin-top: 12px;
+    border: none;
+    border-radius: 25px; /* More rounded */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+/* Login Button - Elegant White */
+button:nth-child(4) {
+    background: linear-gradient(to right, #ffffff, #e6e6e6); /* Soft white */
+    color: #2a3d66;  /* Dark blue text */
+    border: 2px solid #2a3d66;
+}
+
+button:nth-child(4):hover {
+    background: linear-gradient(to right, #f0f0f0, #d9d9d9);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.3);
+}
+
+/* Signup Button - Soothing Green */
+button:nth-child(5) {
+    background: linear-gradient(to right, #28a745, #218838); /* Green gradient */
+    color: white;
+}
+
+button:nth-child(5):hover {
+    background: linear-gradient(to right, #218838, #19692c);
+    box-shadow: 0 6px 18px rgba(255, 255, 255, 0.3);
+}
