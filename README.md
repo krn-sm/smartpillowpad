@@ -34,7 +34,10 @@ An IoT-based real-time **Sleep Monitoring System** using an ESP32 microcontrolle
 ---
 
 ## 🖼️ Screenshots
-(Add screenshots or demo GIFs of the dashboard here when ready)
+![Screenshot1](./images/Screenshot%2025-03-31%172201.png)
+![Screenshot2](./images/Screenshot%2025-03-31%174435.png)
+![Screenshot3](./images/Screenshot%2025-03-31%223158.png)
+![Screenshot4](./images/Screenshot%2025-03-31%223915.png)
 
 ---
 
